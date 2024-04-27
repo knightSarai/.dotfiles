@@ -1,27 +1,7 @@
-# If you come from bash you might have to change your $PATH.
-# export PYENV_ROOT="$HOME/.pyenv"
-
-# export PYENV_VIRTUALENV_DISABLE_PROMPT=1
-
 bindkey -s ^f "tmux-sessionizer\n"
 
-# export  PYENV_PATH="~/.pyenv/shims:${PATH}"
 
-# PYENV_PATH=$HOME/.pyenv/bin
-# export PATH=/bin:/usr/local/bin:\$PYENV_PATH:$PATH
-# ZH_PATH=/bin/usr/local/bin/
-#export PATH=$PYENV_PATH:\$ZH_PATH
-
-# export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init --path)"
-# eval "$(pyenv virtualenv-init -)"
-
-# alias vim=nvim
-
-
-# #Projects
 alias dev="cd ~/code && clear"
-
 
 # notes
 alias draft="nvim ~/Documents/dev/draf.txt"
@@ -78,18 +58,14 @@ function dexec () {
 }
 
 
-# Path to your oh-my-zsh installation.
-export ZSH="~/.oh-my-zsh"
-
 ZSH_THEME="fino"
 
 plugins=(
     git
     zsh-autosuggestions
-    zsh-syntax-highlighting
     zsh-vi-mode
 )
-
+export ZSH="$HOME/.oh-my-zsh"
 
 source $ZSH/oh-my-zsh.sh
 
