@@ -2,6 +2,9 @@ local options = {
   clipboard = "unnamedplus",
   mouse = "a",
   writebackup = false,
+  encoding = "utf-8",
+  fileencoding = "utf-8",
+  title = true,
 }
 
 for k, v in pairs(options) do

@@ -15,7 +15,7 @@ keymap.set("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap.set("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 keymap.set("n", "<leader>S", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
-keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
+keymap.set("n", "<leader>X", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- vimwiki
 keymap.set("", "<leader>ww", "<cmd>VimwikiIndex<CR>", opts)
