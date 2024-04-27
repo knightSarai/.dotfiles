@@ -5,7 +5,7 @@
 
 bindkey -s ^f "tmux-sessionizer\n"
 
-# export  PYENV_PATH="/home/knight/.pyenv/shims:${PATH}"
+# export  PYENV_PATH="~/.pyenv/shims:${PATH}"
 
 # PYENV_PATH=$HOME/.pyenv/bin
 # export PATH=/bin:/usr/local/bin:\$PYENV_PATH:$PATH
@@ -79,7 +79,7 @@ function dexec () {
 
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/knight/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 
 ZSH_THEME="fino"
 
@@ -95,10 +95,6 @@ source $ZSH/oh-my-zsh.sh
 
 
 ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
-
-source /home/knight/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-source /home/knight/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 alias lg='lazygit'
 
