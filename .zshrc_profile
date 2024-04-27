@@ -1,0 +1,10 @@
+alias lg="lazygit"
+alias wiki="vim -c VimwikiIndex"
+alias wikidir="cd ~/Documents/knight-wiki"
+
+alias cl="clear"
+alias rel="source ~/.zshrc && clear"
+
+ZSH_THEME="fino"
+ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
+
