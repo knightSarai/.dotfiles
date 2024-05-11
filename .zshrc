@@ -1,6 +1,3 @@
-bindkey -s ^f "tmux-sessionizer\n"
-
-
 alias dev="cd ~/code && clear"
 
 # notes
@@ -71,6 +68,11 @@ source $ZSH/oh-my-zsh.sh
 
 
 ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
+
+function zvm_after_init() {
+  bindkey -r '^F'
+  bindkey -s ^f "tmux-sessionizer\n"
+}
 
 alias lg='lazygit'
 
