@@ -76,3 +76,7 @@ function zvm_after_init() {
 
 alias lg='lazygit'
 
+export PATH=$PATH:/usr/local/go/bin
+
+export PATH=$PATH:~/go/bin
+
