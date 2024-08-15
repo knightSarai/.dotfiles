@@ -19,3 +19,6 @@ keymap.set("n", "<leader>X", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- vimwiki
 keymap.set("", "<leader>ww", "<cmd>VimwikiIndex<CR>", opts)
+
+-- AutoSave
+keymap.set("n", "<leader>n", ":ASToggle<CR>", {})
