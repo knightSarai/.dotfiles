@@ -1,0 +1,97 @@
+{
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "cursor.composer.textSizeScale": 1.15,
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.editor.showTabs": "single",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "breadcrumbs.enabled": false,
+  "editor.hover.enabled": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<A-a>": false,
+    "<C-k>": false,
+    "tab": false,
+    "<C-z>": false,
+    "K": false
+  },
+  "vim.insertModeKeyBindings": [{ "before": ["j", "k"], "after": ["<Esc>"] }],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    { "before": ["<leader>", "e"], "commands": ["workbench.view.explorer"] },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "a"],
+      "commands": ["workbench.action.toggleAuxiliaryBar"]
+    },
+    {
+      "before": ["<leader>", "g", "c"],
+      "commands": ["workbench.scm.focus"]
+    },
+    {
+      "before": ["<leader>", "g", "a"],
+      "commands": ["gitlens.toggleFileBlame"]
+    },
+
+    {
+      "before": ["<leader>", "f", "r"],
+      "commands": ["workbench.action.openPreviousEditorFromHistory"]
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    { "before": ["<leader>", "p"], "after": ["\"_dP"] }
+  ],
+  "vim.incsearch": true,
+  "vim.hlsearch": true,
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+  "editor.cursorSurroundingLines": 5,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.blame.editorDecoration.enabled": false,
+  "git.blame.statusBarItem.enabled": true,
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.preferredHighContrastColorTheme": "Catppuccin Mocha",
+  "workbench.preferredHighContrastLightColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "Catppuccin Mocha",
+  "git.confirmSync": false,
+  "cursor.composer.usageSummaryDisplay": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+  "window.titleBarStyle": "native",
+  "editor.minimap.renderCharacters": false,
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
